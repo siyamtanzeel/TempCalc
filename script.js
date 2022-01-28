@@ -23,7 +23,9 @@ const appAnimation = ()=>{
 appAnimation();
 const modeToggle = document.querySelector('#modeToggle');
 modeToggle.addEventListener('click',()=>{
-    document.querySelector('html').classList.toggle('dark')
+    document.querySelector('html').classList.toggle('dark');
+    document.querySelector('i').classList.toggle('fas');
+    document.querySelector('i').classList.toggle('far');
 })
 //প্রথমে তিনটি ইনপুট বক্সকেই সিলেক্ট করে variable এ store করব 
 const celciusInput = document.querySelector("#celVal");

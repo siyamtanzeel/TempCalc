@@ -53,7 +53,7 @@ for(let i = 0;i< inputs.length;i++){
                 break;
             case 'kelvin':
                 celciusInput.value = value-273;
-                farenheitInput.value = (value-32)*5/9 + (273);
+                farenheitInput.value = (value-273)*5/9+(32);
                 break;
         }
     })
